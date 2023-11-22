@@ -1,7 +1,7 @@
-Feature: Deposit Account
+Feature: Deposit Amount
 
 
-Scenario: Deposit account with valid data
+Scenario: Deposit amount with valid data
 	Given The account Number details with "X123"
 	And The amount 2000
 	When User sends the PUT request to deposit account
